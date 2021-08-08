@@ -1,11 +1,6 @@
 import React from 'react';
 
 class SearchBar extends React.Component {
-  onInputChange(event) {
-    // event.target.value - esta propriedade é chamada sempre que se escreve alguma coisa lá em baixo no input
-    console.log(event.target.value);
-  }
-
   render() {
     return (
       <div className='ui segment'>
